@@ -48,4 +48,6 @@ percy = Perceptron()
 
 print("Weights: [{:.2f}, {:.2f}] ".format(percy.get_weight()[0], percy.get_weight()[1]))
 print("Bias: {:.2f}".format(percy.get_bias()))
-print("Guess: {:.0f}".format(percy.guess([100, 1])))
+
+inputs = [100, 1]
+print("Guess: {:.0f}".format(percy.guess(inputs)))
